@@ -6,10 +6,5 @@ pipeline {
         sh 'ls -la' 
       }
     }
-    stage('Build') {
-      steps { 
-        sh 'ls' 
-      }
-    }
   }
 }
